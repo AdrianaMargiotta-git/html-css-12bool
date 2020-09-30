@@ -1,0 +1,22 @@
+/*general rule*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3{
+  text-align: center;
+}
+
+/* debug rule*/
+[class*="col-"] {
+  min-height: 150px;
+  background-color: pink;
+  border: 1px solid  black;
+}
+
+.color{
+  color: red;
+  margin-left: 3px:
+}
